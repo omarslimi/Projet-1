@@ -1,0 +1,811 @@
+/*navbar2*/
+body{
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0px;
+    padding: 0px;
+}
+nav{
+    width: 100%;
+    background-color:white;
+}
+nav > ul{
+    margin: 0px;
+    padding: 0px;
+}
+nav > ul::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+nav > ul > li{
+    float: left;
+    position: relative;
+    font-weight: bold;
+}
+nav > ul > li > a{
+    padding: 20px 30px;
+    color: rgb(0, 0, 0);
+    border-right: solid black;
+    height: 10px;
+}
+nav li{
+    list-style-type: none;
+}
+.submenu{
+    display: none;
+}
+nav a{
+    display: inline-block;
+    text-decoration: none;
+}
+.menu-needhelp{
+    float: right;
+    margin: 0;
+}
+.logo-menu-needhelp{
+    width: 40px;
+    padding-left: 1180px;
+    padding-top: 17px;
+}
+nav li:hover .submenu{
+    display: inline-block;
+    position: absolute;
+    top: 100%;
+    left: 0px;
+    padding: 0px;
+    z-index: 1000;
+}
+.submenu li{
+    border-bottom: 1px solid #CCC;
+}
+.submenu li a{
+    padding: 15px 30px;
+    font-size: 13px;
+    color: #222538;
+    width: 270px;
+}
+.menu-ordinateurs:hover{
+    border-top: 5px solid gray;
+    background-color: rgba(201, 194, 192, 0.15);
+}
+.menu-composants:hover{
+    border-top: 5px solid gray;
+    background-color: rgba(201,194,192,0.15);
+}
+.menu-accessoires:hover{
+    border-top: 5px solid gray;
+    background-color: rgba(201,194,192,0.15);
+}
+.menu-ordinateurs .submenu{
+    background-color: white;
+}
+.menu-composants .submenu{
+    background-color: white;
+}
+.menu-accessoires .submenu{
+    background-color: white;
+}
+.submenu li:hover a{
+    color: #EEE;
+    font-weight: bold;
+}
+.menu-ordinateurs .submenu li:hover{
+    background-color: rgb(0, 0, 0);
+}
+.menu-accessoires .submenu li:hover{
+    background-color: rgb(0, 0, 0);
+}
+.menu-composants .submenu li:hover{
+    background-color: rgb(0, 0, 0);
+}
+#logo-home img{
+    width: 30px;
+}
+.nav-all{
+   padding-top: 1px;
+}
+/*bandeau publicitaire*/
+.Banniere{
+    width: 100%;
+    height: 370px;
+    background-color: #000000;
+    position: absolute;
+    top: 20.4;
+    left: 0px;
+}
+.Banniere .image1{
+    width: 39%;
+    position: absolute;
+    left: 30%;
+}
+.Banniere .image2 {
+    width: 3%;
+    position: absolute;
+    padding-left: 1835px;
+    padding-top: 9%;
+}
+.Banniere .image3 {
+    width: 3%;
+    position: absolute;
+    padding-left: 15px;
+    padding-top: 9%;
+} 
+/*bar de navigation toute en haut*/
+header {
+    display: flex;
+    flex-direction: row;
+    background-color: black;
+    height: 100px;
+    width: 100%;
+}
+.position1-bandeau-page-acceuil img{
+    width: 100%;
+    height: 100px;
+}
+.position2-bandeau-page-acceuil{
+    padding: 25px;
+    margin-left: 60px;
+    padding-top: 50px;
+}
+.position1{
+    text-align: center;
+}
+.infos-perso{
+    text-align: center;
+}
+.position3{
+    padding-top: 40px;
+}
+
+#positionA{
+    color: white;
+    margin-right: 35px;
+    text-decoration: none;
+}
+#positionB{
+    color: white;
+    text-decoration: none;
+}
+#positionC{
+    color: white;
+    margin-left: 25px;
+    text-decoration: none;
+}
+img{
+    width: 100%;
+}
+.search-box{
+    margin-left: 45%;
+    transform: translate(-50%, -50%);
+    background: gray;
+    height: 40px;
+    border-radius: 40px;
+    width: 1300px;
+}
+.search-btn{
+    color: black;
+    float: right;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+.search-text{
+    border: none;
+    background: none;
+    outline: none;
+    float: left;
+    padding: 0;
+    color: white;
+    font-size: 16px;
+    transition: 0.4s;
+    line-height: 40px;
+    width: 900px;
+}
+/*Connexion mon compte*/
+.position1{
+    font-size: 20px;
+    color: black;
+    font-weight: bolder; 
+    text-align: center;
+}
+.position2{
+    text-align: center;
+    position: relative;
+    right: 25px;
+}
+.new-client{
+    text-align: center;
+}
+h2{
+    font-size: 21px;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.position2-fieldset-myaccount{
+    border: 0;
+    padding-right: 56px;
+}
+
+p{
+    font-size: 15px;
+    margin-left: 33px;
+}
+
+#alignement{
+    margin-right: 20px;
+}
+
+#ecartement{
+    padding: 8px;
+    margin-top: 17px;
+}
+
+#button1{
+    margin-left: 20px;
+    border-radius: 15px;
+}
+
+#button2{
+    border-radius: 15px;
+}
+
+ol{
+    list-style: none;
+}
+.bas-de-page-my-account{
+    margin-top: 10%;
+}
+/*inscription*/
+
+#title{
+    margin-right: 146px;
+    margin-bottom: 25px;
+    text-align: center;
+}
+
+.informations{
+    margin-left: 234px;
+    margin-right: 245px;
+    text-align: center;
+}
+#firstname{
+    position: relative;
+    right: 33px;
+}
+#lastname{
+    position: relative;
+    right: 33px;
+}
+#pays{
+    position: relative;
+    right: 33px;
+}
+#espacement{
+    padding: 62px;
+}
+
+#pays{
+    width: 203px;
+    height: 24px;
+    margin-top: 2px;
+    width: 212px;
+}
+/*bandeau du millieu page d'acceuil*/
+.rectangle-page-acceuil-1{
+    height: 30px;
+    width: 200px;
+    border: 1px solid black;
+    margin-top: 600px;
+    background-color: black;
+    position: relative;
+    bottom: 190px;
+    left: 390px;
+}
+#ecriture-page-acceuil{
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+    text-align: center;
+    padding-top: 15px;
+}
+.image-rectangle-page-acceuil-1{
+    border-radius: 30%;
+    height: 150px;
+    width: 270px;
+    position: relative;
+    left: 360px;
+    bottom: 170px;
+}
+.rectangle-page-acceuil-2{
+    height: 30px;
+    width: 200px;
+    border: 1px solid black;
+    background-color: black;
+    position: relative;
+    bottom: 394px;
+    left: 850px;
+}
+.image-rectangle-page-acceuil-2{
+    border-radius: 30%;
+    height: 150px;
+    width: 270px;
+    position: relative;
+    left: 820px;
+    bottom: 375px;
+}
+.rectangle-page-acceuil-3{
+    height: 30px;
+    width: 200px;
+    border: 1px solid black;
+    background-color: black;
+    position: relative;
+    bottom: 597px;
+    left: 1310px;
+}
+.image-rectangle-page-acceuil-3{
+    border-radius: 30%;
+    height: 150px;
+    width: 270px;
+    position: relative;
+    left: 1280px;
+    bottom: 578px;
+}
+/*bas de page*/ 
+.bas-de-page-acceuil{
+    margin-top: 40%;
+}
+.logo {
+    text-align: center;
+    border-top: 1px solid #707070;
+    border-bottom: 1px solid #707070;
+    margin-bottom: 50px;
+    font-weight: bold;
+    font-size: 20pt;
+}
+
+.logi{
+    width: 6%;
+    height: 15%;
+}
+.logoentier {
+    width: 80%;
+    height: 60%;
+}
+.logoentier2 {
+    width: 60%;
+    height: 20%;
+    
+}
+.Meilleursvente2 {
+
+    padding-left: 0px;
+    font-size: 15pt;
+    text-decoration: underline;
+    color: white;
+    font-weight: bold;
+    background-color: #090A0C;
+    height: 265px;
+}
+.Meilleursvente2 p {
+    margin-right: 35px;
+}
+#test {
+    height: 50px;
+}
+.border {
+    border-bottom: 1px solid #707070;
+    display: flex;
+    flex-direction: row;
+}
+.border p {
+    margin-left: 20px;
+}
+.réseau {
+    display: flex;
+    flex-direction: row;
+    width: 85%;
+    height: 70px;
+    margin-top: 1%;
+    padding-left: 44%;
+    margin-bottom: 1%; /** changer le top de Mention et politique **/
+}
+.bordert {
+    border-top: 1px solid #707070;
+    display: flex;
+    flex-direction: row;
+
+}
+.bordert p {
+    margin-left: 20px;
+}
+.carte { 
+    padding-left: 58%;
+    width: 13%;
+    height: 25px;
+    padding-top: 1%
+}
+/*page ordinateurs*/ 
+.body-ordinateurs{
+    background-image: url(https://arvinstudio.fr/wp-content/uploads/2021/09/FW_weiss_05-scaled.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+#pseudo{
+    font-weight: bold;
+}
+#title-page-ordinateurs{
+    text-align: center;
+}
+.page-ordinateurs{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+#picture1{
+    width: 200px;
+    border: solid;
+    padding: 1px;
+    background-color: grey;
+    margin-right: 35px;
+}
+
+#picture2{
+    width: 200px;
+    border: solid;
+    padding: 32px;
+    background-color: grey;
+    margin-right: 35px;
+}
+
+#picture3{
+    width: 200px;
+    border: solid;
+    padding: 51px;
+    background-color: grey;
+    margin-right: 35px;
+}
+
+#picture4{
+    width: 178px;
+    border: solid;
+    background-color: grey;
+    margin-right: 35px;
+}
+
+#picture5{
+    width: 200px;
+    border: solid;
+    padding: 33px;
+    background-color: grey;
+    margin-right: 35px;
+}
+
+#picture6{
+    width: 200px;
+    border: solid;
+    padding: 40px;
+    background-color: grey;
+    margin-right: 35px;
+}
+.logo-pages-ordinateurs-footer{
+    background-color: white;
+    text-align: center;
+    border-top: 1px solid #707070;
+    border-bottom: 1px solid #707070;
+    margin-bottom: 50px;
+    font-weight: bold;
+    font-size: 20pt;
+}
+/*page composants*/ 
+.body-composants{
+    background-image: url(https://arvinstudio.fr/wp-content/uploads/2021/09/FW_weiss_05-scaled.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+#title-page-composants{
+    text-align: center;
+}
+.composants{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 160px;
+    width: 200px;
+    margin-left: 820px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    }
+#pic1{
+    width: 200px;
+    height: 200px;
+    border: solid;
+    background-color: grey;
+    margin-right: 35px;
+    margin-bottom: 17px;
+}
+
+#pic2{
+    width: 200px;
+    height: 200px;
+    border: solid;
+    background-color: grey;
+    margin-bottom: 17px;
+    margin-right: 35px;
+}
+
+#pic3{
+    width: 200px;
+    height: 200px;
+    border: solid;
+    background-color: grey;
+    margin-bottom: 17px;
+    margin-right: 35px;
+}
+
+#pic4{
+    width: 200px;
+    height: 200px;
+    border: solid;
+    background-color: grey;
+    margin-right: 35px;
+    margin-bottom: 16px;
+}
+
+#pic5{
+    width: 200px;
+    height: 200px;
+    border: solid;
+    background-color: grey;
+    margin-right: 35px;
+    margin-bottom: 2px;
+}
+
+#pic6{
+    width: 200px;
+    height: 200px;
+    border: solid;
+    background-color: grey;
+    margin-right: 35px;
+    margin-bottom: 17px;
+}
+/*page accessoire*/
+.body-accessoire{
+    background-image: url(https://arvinstudio.fr/wp-content/uploads/2021/09/FW_weiss_05-scaled.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+#title-page-accessoires{
+    text-align: center;
+}
+.accessoires{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    margin-top: 160px;
+    width: 200px;
+    margin-left: 870px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    }
+#acc1{
+    width: 260px;
+    height: 260px;
+    border: solid;
+    background-color: grey;
+    margin-right: 34px;
+}
+#acc2{
+    width: 200px;
+    height: 200px;
+    border: solid;
+    padding: 31px;
+    background-color: grey;
+    margin-right: 35px;
+
+}
+
+
+#acc3{
+    width: 200px;
+    height: 200px;
+    border: solid;
+    padding: 31px;
+    background-color: grey;
+    margin-right: 35px;
+}
+
+
+#acc4{
+    width: 178px;
+    border: solid;
+    height: 200px;
+    background-color: grey;
+    margin-right: 35px;
+    padding: 31px;
+
+}
+
+
+#acc5{
+    width: 200px;
+    height: 200px;
+    border: solid;
+    padding: 33px;
+    background-color: grey;
+    margin-right: 35px;
+    margin-bottom: 15px;
+
+}
+
+
+#acc6{
+    width: 240px;
+    height: 250px;
+    border: solid;
+    padding: 9px;
+    background-color: grey;
+    margin-right: 35px;
+    margin-bottom: 14px;
+}
+/*page needhelp*/
+#contact{
+    background-color: #f9f9fb;
+    padding: 100px 0;
+}
+#contact .formulairerect {
+    max-width: 900px; 
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-color:white;
+    padding: 60px 10px ; 
+    border-radius: 15px;
+    box-sizing: border-box;
+    box-shadow: 0px 10px 50px -10px #d6d6d6;
+}
+#contact .formulairerect .title {
+    text-align: center;
+    color: #2a2a2a;
+    margin-bottom: 60px;
+}
+#contact .formulairerect .title h6 {
+    font-size: 1.2em;
+}
+#contact .formulairerect .title h3 {
+    font-size: 2.8em;
+}
+#contact .formulairerect form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 600px;
+}
+#contact .formulairerect form input {
+    width: 45%;
+    
+}
+#contact .formulairerect form input:hover,
+#contact .formulairerect form textarea:hover {
+    border-bottom: 2px solid #b2f1fc;
+}
+#contact .formulairerect form input,
+#contact .formulairerect form textarea {
+    margin: 15px 0;
+    padding: 10px;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid #e4e4ec;
+    transition: 0.2s;
+
+}
+#contact .formulairerect form textarea {
+    width: 100%;
+    resize: none;
+    height: 100px;
+    margin-bottom: 60px;
+}
+#contact .formulairerect form button {
+    width: 192px;
+    height: 50px;
+    border-radius: 8px;
+    border: none;
+    background-color: #090A0C;
+    color: white;
+    font-weight: bold;
+    font-size: 1.2em;
+    cursor: pointer;
+    margin-top: 30px;
+    outline: none;
+    margin: 0 auto;
+    transition: 0.2s;
+}
+#contact .formulairerect form button:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 10px 40px 0px #d6d6d6;;
+}
+/*page login*/
+.body-login{
+    background-image: url(https://arvinstudio.fr/wp-content/uploads/2021/09/FW_weiss_05-scaled.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+/*page panier*/
+#title-panier{
+    text-align: center;
+}
+.bas-de-page-panier{
+    margin-top: 3%;
+}
+.body-page-monpanier{
+    background-image: url(https://arvinstudio.fr/wp-content/uploads/2021/09/FW_weiss_05-scaled.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+#paragraphe2{
+    text-align: center;
+    font-size: 14px;
+    display: flex;
+    margin-left: 24%;
+}
+
+#paragraphe3{
+    font-size: 29px;
+    text-align: center;
+    display: flex;
+    margin-left: 27%;
+}
+
+#paragraphe4{
+    font-size: 20px;
+    text-align: center;
+    display: flex;
+    margin-left: 26%;
+}
+
+.votrePanier{
+    width: 152%;
+    height: 305px;
+    border: solid;
+    margin-top: 109px;
+    margin-right: 9px;
+    font-size: 14px;
+    
+}
+
+#quantité{
+    
+    margin-left: 24.5%;
+    text-align: center;
+}
+
+.sousTotal{
+   width: 50%;
+   height: 124px;
+   border: solid;
+   font-size: 11px; 
+   text-align: center;
+}
+
+#cocher{
+    vertical-align: 92px;
+}
+
+#screen{
+    width: 19%;
+    
+}
+
+#commande{
+    margin-top: 18px;
+    border-radius: 15%;
+}
